@@ -12,14 +12,18 @@
 	<meta name="opener" content="no-opener">
 	<meta property="og:description" content="Architektur-Entwurf, Machbarkeitsstudien, Projektentwicklung" />
 	<title>archidevelop | Dipl.-Ing. Eberhard Lücke</title>
-	<link rel="shortcut icon" type="image/x-icon" href="">
+	<link rel="shortcut icon" type="image/x-icon" href="" >
 
 	<!-- Font -->
  	
 	<!-- Css -->
 	<link rel="stylesheet" href="css/core.min.css" />
 	<link rel="stylesheet" href="css/skin.css" />
-
+   <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css" />
+    
+	<!-- Add jQuery library -->
+	
+   	
 	<!--[if lt IE 9]>
     	<script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -170,100 +174,66 @@
 			<div class="content clearfix">
 
 			         <div class="logo">
-								<div class="row pl-10">
+								<div class="row">
 									<a href="index.html"><img src="images/logo.png" alt="archidevelop Logo" /></a>
 									
 								</div>
 							</div>                   
-				
-<!-- Portfolio Grid -->
-				
-				<div class="section-block grid-container fade-in-progressively no-padding-top" data-layout-mode="masonry" data-grid-ratio="1.5" data-animate-filter-duration="700" data-set-dimensions data-animate-resize data-animate-resize-duration="700">
-					<div class="row">
-						<div class="column width-12 pt-50">
-							<div class="row grid content-grid-4">
-								
-								
-						
-						<div class="grid-item  grid-sizer sonder">
-									<div class="thumbnail overlay-fade-img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#000000" data-hover-bkg-opacity="0.1">
-										<a class="overlay-link" href="bruchweg-lemgo-archidevelop.html">
-												<img src="images/portfolio/Sonderimmobilien/Luecke-Bruchweg-Lemgo.jpg" alt=""/>
-											</a>
-								  </div>
-								</div>
-						
-						<div class="grid-item  grid-sizer sonder">
-									<div class="thumbnail overlay-fade-img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#000000" data-hover-bkg-opacity="0.1">
-										<a class="overlay-link" href="owl-con-buende-ennigloh-archidevelop.html">
-											<img src="images/portfolio/startseite/archidevelop-owl-con-buende-ennigloh.jpg" alt=""/>
-											</a>
-								  </div>
-								</div>
-								
-						
-                                
-                              <div class="grid-item grid-sizer sonder">
-									<div class="thumbnail overlay-fade-img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#000000" data-hover-bkg-opacity="0.1">
-										<a class="overlay-link" href="jacobi-pflegeheim-archidevelop.html">
-											<img src="images/portfolio/Sonderimmobilien/Luecke-Altenheim-Architekt.jpg" alt=""/>
-											</a>
-							    </div>
-								</div>
-                                 <div class="grid-item grid-sizer sonder">
-									<div class="thumbnail overlay-fade-img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#000000" data-hover-bkg-opacity="0.1">
-										<a class="overlay-link" href="bielefeld-pflegeheim-archidevelop.html">
-											<img src="images/portfolio/Sonderimmobilien/Luecke-Bielefeld-Architekt.jpg" alt=""/>
-											</a>
-							    </div>
-								</div>
-                                
-                                <div class="grid-item grid-sizer sonder">
-									<div class="thumbnail overlay-fade-img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#000000" data-hover-bkg-opacity="0.1">
-										<a class="overlay-link" href="pflegeheim-heidenbach-archidevelop.html">
-											<img src="images/portfolio/Sonderimmobilien/Luecke-Pflegeheim-Architekt.jpg" alt=""/>
-											</a>
-							    </div>
-								</div>
-                                
-                                 <div class="grid-item grid-sizer sonder">
-									<div class="thumbnail overlay-fade-img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#000000" data-hover-bkg-opacity="0.1">
-										<a class="overlay-link" href="mvz-lemgo-archidevelop.html">
-											<img src="images/portfolio/Sonderimmobilien/Luecke-Sonderimmobilien-Architekt.jpg" alt=""/>
-											</a>
-							    </div>
-								</div>
-								
-                                 <div class="grid-item grid-sizer sonder">
-									<div class="thumbnail overlay-fade-img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#000000" data-hover-bkg-opacity="0.1">
-										<a class="overlay-link" href="hotel-business-club-archidevelop.html">
-											<img src="images/portfolio/startseite/Luecke-Hotel-Business-Club.jpg" alt=""/>
-											</a>
-							    </div>
-								</div>
-								
-								<div class="grid-item portrait grid-sizer sonder">
-											<div class="thumbnail overlay-fade-img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#000000" data-hover-bkg-opacity="0.1">
-												<a class="overlay-link" href="hotel-kesselbrink-archidevelop.html">
-													<img src="images/portfolio/Sonderimmobilien/Luecke-Sonderimmobilien-Kesselbrink.jpg" alt=""/>
-													</a>
-										  </div>
-										</div>
-                                
+				<!-- Content Inner -->
+                
+				<div class="section-block grid-container fade-in-progressively padding-top" data-layout-mode="masonry" data-grid-ratio="1.5" data-animate-filter-duration="700" data-set-dimensions data-animate-resize data-animate-resize-duration="700">
 					
-                            </div>
+                         <section class="section-block replicable-content">
+                        <div class="row flex">
+                        
+                        <div class ="colomn width-4 pr-15">
+                       
+                        <a class="overlay-link lightbox-link" data-group="product-lightbox-gallery" href="images/portfolio/Projektseiten/Sonderbauten/archidevelop-owl-con-buende-ennigloh-1.jpg">
+										<img src="images/portfolio/Projektseiten/Sonderbauten/archidevelop-owl-con-buende-ennigloh-1.jpg" alt=""/>
+										
+									</a>
+                        </div>
+                        
+                        <div class="column width-8">
+								<h4>2018</h4>
+								<h3 class="widget-title">OWL-CON </h3>
+								<p>Städtebaulicher Vorentwurf zur Errichtung eines Unternehmensstandortes mit Flächen für Verwaltung, Entwicklung und Produktion in drei Bauabschnitten. Beplant wurde ein in der Entwicklung befindliches Grundstück im Gewerbegebiet Ennigloh in Bünde/Westfalen.</p>
+							
+							<hr>
+							
+                        
+                        </div>
 						</div>
-					</div>
-				</div>
-				<!-- Portfolio Grid End -->
-				<div class="section-block replicable-content mb-400">
-					</div>
-
+                        
+                        
+                        
+                        
+                        
+                        
+                     
+                        </div>
+					</section>
+				
+                
+                
+               
+                
+						
+				
+			
+<div class="section-block replicable-content mb-400">
+					<div class="row"> </div>
 			</div>
+             </div>
+             </div>
+             </div>
+              
 			<!-- Content End -->
-
+            
 
 			<!-- Footer -->
+           
+            
 			<footer class="footer footer-fixed" data-animate-reveal>
 				<div class="footer-top">
 			
@@ -282,12 +252,13 @@
 				</div>
 			</footer>
 			<!-- Footer End -->
-</div>
-		</div>
-	
+
 
 	<!-- Js -->
  	<script src="js/jquery.min.js"></script>
 	<script src="js/timber.master.min.js"></script>
+
+
+
 </body>
 </html>
