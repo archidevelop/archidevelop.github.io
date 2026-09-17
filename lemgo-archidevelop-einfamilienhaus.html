@@ -12,14 +12,18 @@
 	<meta name="opener" content="no-opener">
 	<meta property="og:description" content="Architektur-Entwurf, Machbarkeitsstudien, Projektentwicklung" />
 	<title>archidevelop | Dipl.-Ing. Eberhard Lücke</title>
-	<link rel="shortcut icon" type="image/x-icon" href="">
+	<link rel="shortcut icon" type="image/x-icon" href="" >
 
 	<!-- Font -->
  	
 	<!-- Css -->
 	<link rel="stylesheet" href="css/core.min.css" />
 	<link rel="stylesheet" href="css/skin.css" />
-
+   <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css" />
+    
+	<!-- Add jQuery library -->
+	
+   	
 	<!--[if lt IE 9]>
     	<script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -170,88 +174,101 @@
 			<div class="content clearfix">
 
 			         <div class="logo">
-								<div class="row pl-10">
+								<div class="row">
 									<a href="index.html"><img src="images/logo.png" alt="archidevelop Logo" /></a>
 									
 								</div>
 							</div>                   
-				
-<!-- Portfolio Grid -->
-				
-				<div class="section-block grid-container fade-in-progressively no-padding-top" data-layout-mode="masonry" data-grid-ratio="1.5" data-animate-filter-duration="700" data-set-dimensions data-animate-resize data-animate-resize-duration="700">
-					<div class="row">
-						<div class="column width-12 pt-50">
-							<div class="row grid content-grid-4">
-								
-	                            <div class="grid-item portrait grid-sizer nutzung">
-									<div class="thumbnail overlay-fade-img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#000000" data-hover-bkg-opacity="0.1">
-										<a class="overlay-link" href="park-inn-bielefeld-archidevelop.html">
-											<img src="images/portfolio/startseite/Luecke-Nutzungskonzept-Park-Inn-Bielefeld.jpg" alt=""/>
-										</a>
-							    	</div>
-								</div>
-								
-								
-								
-						 <div class="grid-item grid-sizer nutzung">
-									<div class="thumbnail overlay-fade-img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#000000" data-hover-bkg-opacity="0.1">
-										<a class="overlay-link" href="gkc-nutzungskonzept-archidevelop.html">
-											<img src="images/portfolio/Nutzung/german_kitchen_center.jpg" alt=""/>
-											</a>
-							    </div>
-								</div>
-								
-                                 <div class="grid-item grid-sizer nutzung">
-									<div class="thumbnail overlay-fade-img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#000000" data-hover-bkg-opacity="0.1">
-										<a class="overlay-link" href="mbb-mittelstandsboerse-bielefeld-archidevelop.html">
-											<img src="images/portfolio/Nutzung/MBB.jpg" alt=""/>
-											</a>
-							    </div>
-								</div>
-								
-								
-	                            
-                                
-                                 <div class="grid-item grid-sizer nutzung">
-									<div class="thumbnail overlay-fade-img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#000000" data-hover-bkg-opacity="0.1">
-										<a class="overlay-link" href="pkz-nutzungskonzept-archidevelop.html">
-											<img src="images/portfolio/Nutzung/Standort-1-Werner-Bock-Straße.jpg" alt=""/>
-										</a>
-							    	</div>
-								</div>
-								
-                                 <div class="grid-item grid-sizer nutzung">
-									<div class="thumbnail overlay-fade-img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#000000" data-hover-bkg-opacity="0.1">
-										<a class="overlay-link" href="digitalfabrik-buende-archidevelop.html">
-											<img src="images/portfolio/startseite/Luecke-Nutzungskonzept-Digitalfabrik-Buende.jpg" alt=""/>
-										</a>
-							    	</div>
-								</div>
-								
-                                 <div class="grid-item grid-sizer nutzung">
-									<div class="thumbnail overlay-fade-img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#000000" data-hover-bkg-opacity="0.1">
-										<a class="overlay-link" href="constantia-coworking-archidevelop.html">
-											<img src="images/portfolio/startseite/Constantia-Coworking-archidevelop.jpg" alt=""/>
-										</a>
-							    	</div>
-								</div>		
-								
-                              			
-								
-								
-                            </div>
+				<!-- Content Inner -->
+                
+				<div class="section-block grid-container fade-in-progressively padding-top" data-layout-mode="masonry" data-grid-ratio="1.5" data-animate-filter-duration="700" data-set-dimensions data-animate-resize data-animate-resize-duration="700">
+					
+                         <section class="section-block replicable-content">
+                        <div class="row flex">
+                        
+                        <div class ="colomn width-8 pr-15">
+                       
+                        <a class="overlay-link lightbox-link" data-group="product-lightbox-gallery" href="images/portfolio/Projektseiten/Wohnbauten/Einfamilienhaus-Lemgo-2025-1.jpg">
+										<img src="images/portfolio/Projektseiten/Wohnbauten/Einfamilienhaus-Lemgo-2025-1.jpg" alt=""/>
+										<span class="overlay-info">
+											<span>
+												<span>
+													<span class="icon-plus large"></span>
+												</span>
+											</span>
+										</span>
+									</a>
+                        </div>
+                        
+                        <div class="column width-4">
+								<h4>2025 – 2026</h4>
+								<h3 class="widget-title">Haus AN/EFH in Lemgo</h3>
+								<p>Auf einem Hanggrundstück soll ein Einfamilienhaus entstehen für ein Ehepaar. Neben dem Raumprogramm für den Eigenbedarf sollen zwei Gästezimmer für Besuche der erwachsenen Söhne berücksichtigt werden. Eine Kombination aus baurechtlich vorgeschriebenem Satteldach und untergeordnetem begrünten Flachdach schafft einen spannenden Baukörper. Bearbeitet wurden die Leistungsphasen 1–4.</p>
+							
+							<hr>
+							<div class="row">
+						<div class="column width-12">
+						  <div class="row grid content-grid-3">
+								<div class="grid-item grid-sizer">
+									<a class="overlay-link lightbox-link" data-group="product-lightbox-gallery" href="images/portfolio/Projektseiten/Wohnbauten/Einfamilienhaus-Lemgo-2025-2.jpg">
+										<img src="images/portfolio/Projektseiten/Wohnbauten/Einfamilienhaus-Lemgo-2025-2.jpg" alt=""/>
+										<span class="overlay-info">
+											<span>
+												<span>
+													<span class="icon-plus large"></span>
+												</span>
+											</span>
+										</span>
+									</a>
+							  </div>
+							  
+								<div class="grid-item grid-sizer">
+									<a class="overlay-link lightbox-link" data-group="product-lightbox-gallery" href="images/portfolio/Projektseiten/Wohnbauten/Einfamilienhaus-Lemgo-2025-3.jpg">
+										<img src="images/portfolio/Projektseiten/Wohnbauten/Einfamilienhaus-Lemgo-2025-3.jpg" alt=""/>
+										<span class="overlay-info">
+											<span>
+												<span>
+													<span class="icon-plus large"></span>
+												</span>
+											</span>
+										</span>
+									</a>
+							  </div>
+
+
+
+						  </div>
 						</div>
-					</div>
-				</div>
-				<!-- Portfolio Grid End -->
-				<div class="section-block replicable-content mb-400">
-					</div>
-
+                        
+                        </div>
+						</div>
+                        
+                        
+                        
+                     
+                        </div>
+					</section>
+				
+                
+                
+               
+                
+						
+				
+			
+<div class="section-block replicable-content mb-400">
+					<div class="row"> </div>
 			</div>
+             </div>
+             </div>
+             </div>
+              
 			<!-- Content End -->
-
+            
 
 			<!-- Footer -->
+           
+            
 			<footer class="footer footer-fixed" data-animate-reveal>
 				<div class="footer-top">
 			
@@ -270,12 +287,13 @@
 				</div>
 			</footer>
 			<!-- Footer End -->
-</div>
-		</div>
-	
+
 
 	<!-- Js -->
  	<script src="js/jquery.min.js"></script>
 	<script src="js/timber.master.min.js"></script>
+
+
+
 </body>
 </html>
